@@ -1,6 +1,8 @@
 #!/bin/bash
 # (Copyright) [2017 - 2017] Confluent, Inc.
 
+set -x
+
 # Use shellcheck to lint this file
 
 base_dir=$( cd -P "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )
